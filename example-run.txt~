@@ -1,0 +1,41 @@
+==FREQUENT ITEMSETS (min_supp=30.0%)
+
+['Male'], 92.3198733175%
+['Contraband'], 71.7735550277%
+['Contraband', 'Male'], 65.0435471101%
+['<15-30>'], 57.4030087094%
+['<15-30>', 'Male'], 53.0878859857%
+['M'], 50.5146476643%
+['M', 'Male'], 47.2288202692%
+['B'], 47.0308788599%
+['B', 'Male'], 43.4283452098%
+['<15-30>', 'Contraband'], 41.0530482977%
+['<15-30>', 'Contraband', 'Male'], 37.3317498021%
+['T'], 37.2921615202%
+['Contraband', 'M'], 36.0253365004%
+['B', 'Contraband'], 35.9461599367%
+['Male', 'T'], 34.0855106888%
+['Contraband', 'M', 'Male'], 33.0562153603%
+['B', 'Contraband', 'Male'], 32.6207442597%
+['Knife'], 32.1456848773%
+['Knife', 'Male'], 31.1163895487%
+['MANHATTAN'], 30.7996832937%
+
+==HIGH-CONFIDENCE ASSOCIATION RULES (min_conf=60.0%)
+
+[Knife]=>[Male] (Conf: 96.7980295567%, Supp: 31.1163895487%)
+[M]=>[Male] (Conf: 93.4952978056%, Supp: 47.2288202692%)
+[<15-30>]=>[Male] (Conf: 92.4827586207%, Supp: 53.0878859857%)
+[B]=>[Male] (Conf: 92.3400673401%, Supp: 43.4283452098%)
+[Contraband,M]=>[Male] (Conf: 91.7582417582%, Supp: 33.0562153603%)
+[T]=>[Male] (Conf: 91.4012738854%, Supp: 34.0855106888%)
+[<15-30>,Contraband]=>[Male] (Conf: 90.9353905497%, Supp: 37.3317498021%)
+[B,Contraband]=>[Male] (Conf: 90.7488986784%, Supp: 32.6207442597%)
+[Contraband]=>[Male] (Conf: 90.6232763376%, Supp: 65.0435471101%)
+[B]=>[Contraband] (Conf: 76.430976431%, Supp: 35.9461599367%)
+[B,Male]=>[Contraband] (Conf: 75.1139471285%, Supp: 32.6207442597%)
+[<15-30>]=>[Contraband] (Conf: 71.5172413793%, Supp: 41.0530482977%)
+[M]=>[Contraband] (Conf: 71.3166144201%, Supp: 36.0253365004%)
+[Male]=>[Contraband] (Conf: 70.4545454545%, Supp: 65.0435471101%)
+[<15-30>,Male]=>[Contraband] (Conf: 70.3206562267%, Supp: 37.3317498021%)
+[M,Male]=>[Contraband] (Conf: 69.9916177703%, Supp: 33.0562153603%)
